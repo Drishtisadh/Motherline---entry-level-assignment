@@ -1,0 +1,153 @@
+/* Reset & Basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar */
+.navbar.alt {
+  background-color: #e0f7e9;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar.alt nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar.alt a {
+  text-decoration: none;
+  color: #2b7a4b;
+  font-weight: bold;
+}
+
+/* Toggle switch */
+.toggle-label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/* Hero Section */
+.hero.alt {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f0fff5;
+}
+
+.hero.alt h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #2b7a4b;
+}
+
+.hero.alt p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.alt-btn {
+  padding: 10px 20px;
+  background-color: #2b7a4b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Features Horizontal */
+.features.alt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.feature {
+  background: #ffffff;
+  border: 1px solid #d4eedf;
+  padding: 20px;
+  border-radius: 8px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+.footer.alt {
+  text-align: center;
+  padding: 15px;
+  background-color: #eafaf1;
+  color: #4d8d6e;
+  font-size: 0.9rem;
+}
+
+/* Dashboard Cards */
+.card.alt {
+  background: #ffffff;
+  border: 1px solid #d4eedf;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Upload History */
+.history li {
+  margin-bottom: 10px;
+}
+
+/* PDF Preview */
+.pdf-preview {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode .navbar.alt {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .feature,
+.dark-mode .card.alt {
+  background-color: #1f1f1f;
+  color: #eee;
+  border-color: #333;
+}
+
+.dark-mode .alt-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.dark-mode .footer.alt {
+  background-color: #1a1a1a;
+  color: #999;
+}

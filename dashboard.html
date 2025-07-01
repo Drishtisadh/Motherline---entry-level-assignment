@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Smart Health Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar alt">
+    <h2>Smart Health Dashboard</h2>
+   <label class="toggle-label">
+  <input type="checkbox" id="darkToggle" />
+  <span id="modeText">Dark Mode: OFF</span>
+</label>
+
+  </header>
+
+  <!-- User Info -->
+  <section class="card alt">
+    <h3>👩‍⚕️ Patient Overview</h3>
+    <p><strong>Name:</strong> Anjali Mehra</p>
+    <p><strong>Age:</strong> 28</p>
+    <p><strong>Email:</strong> anjali@example.com</p>
+  </section>
+
+  <!-- Upload -->
+  <section class="card alt">
+    <h3>📤 Upload Medical Record</h3>
+    <input type="file" id="fileInput" accept="application/pdf" />
+    <div id="pdfPreview" class="pdf-preview">No file selected</div>
+  </section>
+
+  <!-- History -->
+  <section class="card alt">
+    <h3>📂 History</h3>
+    <ul class="history">
+      <li>📝 Report - 10 July 2025</li>
+      <li>📝 Prescription - 25 June 2025</li>
+      <li>📝 CT Scan - 5 May 2025</li>
+    </ul>
+  </section>
+  <script src="dashboard.js"></script>
+</body>
+</html>
